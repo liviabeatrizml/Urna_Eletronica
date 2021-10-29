@@ -1,6 +1,13 @@
 # URNA ELETRÔNICA
 >A urna eletrônica é um programa desenvolvido na linguagem C, com base no que foi ensinado nas aulas da faculdade e com conhecimentos adquiridos por fora, a urna possui uma sistema bastante simples e divertido, na qual utiliza totalmente a tela do compilador do programa para realizar todas as ações nela disponíveis.
 
+## **:clipboard:** Requisitos
+Requer apenas uma IDE que programe em C instalado em sua máquina.
+
+Sugestão para Windows [Falcon C++](http://falconcpp.sourceforge.net/downloads/)
+
+**:construction:** Sugestão para Linux ... Em andamento **:construction:**
+
 ## **:computer:** Desenvolvimento cronológico
 Projeto finalizado para sistema 'Windows', porém com possíveis alterações para a acessibilidade também para sistema 'Linux'.
  - [x] Discutir como o programa irá funcionar
@@ -14,14 +21,6 @@ Projeto finalizado para sistema 'Windows', porém com possíveis alterações pa
  - [x] Fazer os testes
  - [x] Correções dos erros
  - [ ] Acessibilidade para sistema Linux
-
-## **:clipboard:** Requisitos
-Requer apenas uma IDE que programe em C instalado em sua máquina.
-
-Sugestão para Windows [Falcon C++](http://falconcpp.sourceforge.net/downloads/)
-
-**:construction:** Sugestão para Linux ... Em andamento **:construction:**
-
 
 ## **:hammer_and_wrench:** Construído com
  * [Falcon C++](http://falconcpp.sourceforge.net/) (IDE utilizada para a criação do código)
