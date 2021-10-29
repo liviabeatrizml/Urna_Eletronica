@@ -25,7 +25,7 @@ Projeto finalizado para sistema 'Windows', porém com possíveis alterações pa
 ## **:hammer_and_wrench:** Construído com
  * [Falcon C++](http://falconcpp.sourceforge.net/) (IDE utilizada para a criação do código)
  * [Discord](https://discord.com/)
-	 * Servidor do Discord (Compartilhamento de tela ao vivo)
+	 * Servidor do Discord (Compartilhamento de tela ao vivo e reuniões)
 	 * Bloco de Notas (Compartilhamento de código com alterações)     
 ---
 Feito por [Livia Beatriz](https://github.com/liviabeatrizml) e [Leonardo Inácio](https://github.com/LeonardoIGD)
