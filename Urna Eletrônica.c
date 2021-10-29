@@ -21,7 +21,7 @@
 	#include <conio.h>            
 #endif
 
-//Declaraçãoo das funções
+//Declaração das funções;
 int LendoVotantes();
 void Permissao(char senha[50]);
 void LimpaTela();
@@ -46,7 +46,7 @@ int main(){
 	
 	do{
 		Menu();
-		printf("\t\t\t\t -> Op��o: ");
+		printf("\t\t\t\t -> Opção: ");
 		scanf("%d", &opcao);
 			
 		if(opcao == 1){
@@ -177,7 +177,7 @@ int main(){
 		} else if(opcao == 4){
 			break;
 		
-	 	//OP��O SECRETA, número da sorte de Livia após o de Leonardo.	
+	 	//OPÇÃO SECRETA, número da sorte de Livia após o de Leonardo.	
 		} else if(opcao == 1229){
 			strcpy(senha, "");
 			LimpaTela();
@@ -330,7 +330,7 @@ void UrnaRE(char voto[6]){              //Função da impressão da URNA REPRESE
 		printf("\t| ..  \\\\         \\ BRANCO \\       \\\\\\                   \\ 0. .\\                   \\\\ \n");
 		printf("\t| ...  \\\\                          \\\\\\                                             \\\\ \n");
 		printf("\t| ....  \\\\                          \\\\\\ \\ BRANCO ''.\\  \\ CORRIGE '''\\  \\ CONFIRMA \\ \\\\ \n");
-    	printf("\t| .....  \\\\                          \\\\\\                                \\  ..''..  \\ \\\\ \n");
+    		printf("\t| .....  \\\\                          \\\\\\                                \\  ..''..  \\ \\\\ \n");
 		printf("\t|=====================================================================================\\\\ \n\n");	
 	} else if((strcmp(voto, "12345") == 0)||(strcmp(voto, "67890") == 0)||(strcmp(voto, "98765") == 0)||(strcmp(voto, "43210") == 0)||(strcmp(voto, "48444") == 0)){
 		printf("\t_____________________________________________________________________________\n");
@@ -342,7 +342,7 @@ void UrnaRE(char voto[6]){              //Função da impressão da URNA REPRESE
 		printf("\t| ..  \\\\         \\ %s \\        \\\\\\                   \\ 0. .\\                   \\\\ \n", voto);
 		printf("\t| ...  \\\\                          \\\\\\                                             \\\\ \n");
 		printf("\t| ....  \\\\                          \\\\\\ \\ BRANCO ''.\\  \\ CORRIGE '''\\  \\ CONFIRMA \\ \\\\ \n");
-    	printf("\t| .....  \\\\                          \\\\\\                                \\  ..''..  \\ \\\\ \n");
+    		printf("\t| .....  \\\\                          \\\\\\                                \\  ..''..  \\ \\\\ \n");
 		printf("\t|=====================================================================================\\\\ \n\n");
 	} else {
 		printf("\t_____________________________________________________________________________\n");
@@ -354,7 +354,7 @@ void UrnaRE(char voto[6]){              //Função da impressão da URNA REPRESE
 		printf("\t| ..  \\\\         \\ NULO \\         \\\\\\                   \\ 0. .\\                   \\\\ \n");
 		printf("\t| ...  \\\\                          \\\\\\                                             \\\\ \n");
 		printf("\t| ....  \\\\                          \\\\\\ \\ BRANCO ''.\\  \\ CORRIGE '''\\  \\ CONFIRMA \\ \\\\ \n");
-    	printf("\t| .....  \\\\                          \\\\\\                                \\  ..''..  \\ \\\\ \n");
+    		printf("\t| .....  \\\\                          \\\\\\                                \\  ..''..  \\ \\\\ \n");
 		printf("\t|=====================================================================================\\\\ \n\n");
 	}
 }
@@ -371,7 +371,7 @@ void UrnaPG(char voto[6]){              //Função da impressão da URNA PRESIDE
 		printf("\t| ..  \\\\           __ __          \\\\\\                   \\ 0. .\\                   \\\\ \n");
 		printf("\t| ...  \\\\                          \\\\\\                                             \\\\ \n");
 		printf("\t| ....  \\\\                          \\\\\\ \\ BRANCO ''.\\  \\ CORRIGE '''\\  \\ CONFIRMA \\ \\\\ \n");
-    	printf("\t| .....  \\\\                          \\\\\\                                \\  ..''..  \\ \\\\ \n");
+    		printf("\t| .....  \\\\                          \\\\\\                                \\  ..''..  \\ \\\\ \n");
 		printf("\t|=====================================================================================\\\\ \n\n");
 	} else if(strcmp(voto, "00") == 0){
 		printf("\t_____________________________________________________________________________\n");
@@ -383,7 +383,7 @@ void UrnaPG(char voto[6]){              //Função da impressão da URNA PRESIDE
 	   	printf("\t| ..  \\\\          \\ BRANCO \\      \\\\\\                   \\ 0. .\\                   \\\\ \n");
 	   	printf("\t| ...  \\\\                          \\\\\\                                             \\\\ \n");
 	   	printf("\t| ....  \\\\                          \\\\\\ \\ BRANCO ''.\\  \\ CORRIGE '''\\  \\ CONFIRMA \\ \\\\ \n");
-	    printf("\t| .....  \\\\                          \\\\\\                                \\  ..''..  \\ \\\\ \n");
+	    	printf("\t| .....  \\\\                          \\\\\\                                \\  ..''..  \\ \\\\ \n");
 	   	printf("\t|=====================================================================================\\\\ \n\n");	
 	} else if((strcmp(voto, "04") == 0)||(strcmp(voto, "08") == 0)){
 		printf("\t_____________________________________________________________________________\n");
@@ -395,7 +395,7 @@ void UrnaPG(char voto[6]){              //Função da impressão da URNA PRESIDE
 	   	printf("\t| ..  \\\\          \\ %s \\          \\\\\\                   \\ 0. .\\                   \\\\ \n", voto);
 	   	printf("\t| ...  \\\\                          \\\\\\                                             \\\\ \n");
 	   	printf("\t| ....  \\\\                          \\\\\\ \\ BRANCO ''.\\  \\ CORRIGE '''\\  \\ CONFIRMA \\ \\\\ \n");
-	    printf("\t| .....  \\\\                          \\\\\\                                \\  ..''..  \\ \\\\ \n");
+	    	printf("\t| .....  \\\\                          \\\\\\                                \\  ..''..  \\ \\\\ \n");
 	   	printf("\t|=====================================================================================\\\\ \n\n");
 	} else {
 	   	printf("\t_____________________________________________________________________________\n");
@@ -407,7 +407,7 @@ void UrnaPG(char voto[6]){              //Função da impressão da URNA PRESIDE
 	   	printf("\t| ..  \\\\          \\ NULO \\        \\\\\\                   \\ 0. .\\                   \\\\ \n");
 	   	printf("\t| ...  \\\\                          \\\\\\                                             \\\\ \n");
 	   	printf("\t| ....  \\\\                          \\\\\\ \\ BRANCO ''.\\  \\ CORRIGE '''\\  \\ CONFIRMA \\ \\\\ \n");
-	    printf("\t| .....  \\\\                          \\\\\\                                \\  ..''..  \\ \\\\ \n");
+	    	printf("\t| .....  \\\\                          \\\\\\                                \\  ..''..  \\ \\\\ \n");
 	   	printf("\t|=====================================================================================\\\\ \n\n");
 	}
 }
@@ -423,7 +423,7 @@ void Fim(){                             //Função da impressão da URNA FINAL
 		printf("\t| ..  \\\\   ##    ##  #     ##     \\\\\\                   \\ 0. .\\                   \\\\ \n");
 		printf("\t| ...  \\\\   ##    ##  #     ##     \\\\\\                                             \\\\ \n");
 		printf("\t| ....  \\\\                          \\\\\\ \\ BRANCO ''.\\  \\ CORRIGE '''\\  \\ CONFIRMA \\ \\\\ \n");
-    	printf("\t| .....  \\\\                          \\\\\\                                \\  ..''..  \\ \\\\ \n");
+    		printf("\t| .....  \\\\                          \\\\\\                                \\  ..''..  \\ \\\\ \n");
 		printf("\t|=====================================================================================\\\\ \n\n");
 }
 
